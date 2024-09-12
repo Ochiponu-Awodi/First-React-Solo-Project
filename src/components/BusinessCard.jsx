@@ -11,7 +11,9 @@ export default function BusinessCard () {
                     <p>Email: awodiomale@gmail.com</p>
                     <p>Phone: (234) 813 8656 549</p>
                     <a href="https://github.com/Ochiponu-Awodi">
-                        <img src="/github-logo.png" alt="github logo" className="logo"></img>
+                        <div className='hover-handle'>
+                            <img src="/github-logo.png" alt="github logo" className="logo"></img>
+                        </div>
                     </a>
                 </div>
             </div>

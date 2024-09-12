@@ -37,9 +37,31 @@
     width: 80px;
     margin-top: 20px;
     height: auto;
-    transition: transform 0.2s;
 }
 
-.logo:hover {
+@keyframes logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+      .logo {
+      animation: logo-spin infinite 20s linear;
+    }
+  }
+
+  .hover-handle {
+    display: inline-block;
+    transition: transform 0.2s;
+    will-change: filter;
+    transition: filter 300ms;
+  }
+
+  .hover-handle:hover {
     transform: scale(1.1);
-}
+    filter: drop-shadow(0 0 10px #af03ff) drop-shadow(0 0 10px #af03ff);
+  }
