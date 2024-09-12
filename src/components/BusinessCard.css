@@ -61,7 +61,7 @@
 
   .hover-handle:hover {
     transform: scale(1.1);
-    filter: drop-shadow(0 0 10px #af03ff) drop-shadow(0 0 10px #af03ff);
+    filter: drop-shadow(0 0 10px #af03ff);
   }
 
   @media (hover: none) {
