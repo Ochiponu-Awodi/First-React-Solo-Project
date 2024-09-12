@@ -1,16 +1,5 @@
 import './BusinessCard.css'
 
-const hoverHandle = document.querySelector('.hover-handle');
-
-hoverHandle.addEventListener('touchstart', () => {
-    hoverHandle.classList.add('hover');
-});
-
-hoverHandle.addEventListener('touchend', () => {
-    hoverHandle.classList.remove('hover');
-});
-
-
 export default function BusinessCard () {
     return (
         <div className='container'>
