@@ -64,7 +64,7 @@
     filter: drop-shadow(0 0 10px #af03ff);
   }
 
-  @media (hover: none) {
+  @media (max-width: 480px) {
     .logo-handle:hover {
         transform: none;
         filter: none;
