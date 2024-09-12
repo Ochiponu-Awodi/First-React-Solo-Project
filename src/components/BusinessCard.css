@@ -66,6 +66,7 @@
 
   @media (max-width: 480px) {
     .logo-handle:hover {
+        transition: none;
         transform: none;
         filter: none;
     }
